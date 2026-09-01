@@ -12,6 +12,5 @@ using namespace std;
 int main()
 {
     fastio();
-
     return 0;
 }
