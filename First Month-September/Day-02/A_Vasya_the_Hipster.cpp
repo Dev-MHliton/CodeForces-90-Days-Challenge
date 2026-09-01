@@ -12,5 +12,8 @@ using namespace std;
 int main()
 {
     fastio();
+    int n;
+    cin >> n;
+
     return 0;
 }
