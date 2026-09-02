@@ -12,8 +12,13 @@ using namespace std;
 int main()
 {
     fastio();
-    int n;
-    cin >> n;
+    int a, b;
+    cin >> a >> b;
+
+    int mini = min({a, b});
+    int diff = ((max({a, b})) - mini) / 2;
+
+    cout << mini << " " << diff << "\n";
 
     return 0;
 }
