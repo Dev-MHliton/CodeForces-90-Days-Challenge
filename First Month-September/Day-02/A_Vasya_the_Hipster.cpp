@@ -15,7 +15,7 @@ int main()
     int a, b;
     cin >> a >> b;
 
-    int mini = min({a, b});
+    int mini = min({a, b}); // minimum socks diff color;
     int diff = ((max({a, b})) - mini) / 2;
 
     cout << mini << " " << diff << "\n";
