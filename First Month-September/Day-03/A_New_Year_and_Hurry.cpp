@@ -12,8 +12,21 @@ using namespace std;
 int main()
 {
     fastio();
-    int n;
-    cin >> n;
 
+    int n, k;
+    cin >> n >> k;
+
+    int available = 240 - k;
+    int time = 0, solved = 0;
+
+    for (int i = 1; i <= n; i++)
+    {
+        time += 5 * i;
+        if (time > available)
+            break;
+        solved++;
+    }
+
+    cout << solved << endl;
     return 0;
 }
