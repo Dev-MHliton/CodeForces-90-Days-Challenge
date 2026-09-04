@@ -13,13 +13,15 @@ int main()
 {
     fastio();
 
-    int t = 1;
-    // cin >> t;
+    cin >> n;
 
-    while (t--)
+    if (n % 2 == 0)
     {
-
-        cout << "Hello CP!" << endl;
+        cout << n / 2 << endl;
+    }
+    else
+    {
+        cout << -(n + 1) / 2 << endl;
     }
 
     return 0;
