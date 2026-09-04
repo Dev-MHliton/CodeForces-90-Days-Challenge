@@ -13,6 +13,7 @@ int main()
 {
     fastio();
 
+    int n;
     cin >> n;
 
     if (n % 2 == 0)
