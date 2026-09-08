@@ -21,7 +21,7 @@ int main()
         int n, ans = 0;
         cin >> n;
 
-        vector<int> a(n); // a means array , array size is (n)numbers
+        vector<int> a(n);
 
         for (int i = 0; i < n; i++)
         {
