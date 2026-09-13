@@ -18,6 +18,7 @@ int main()
     {
         cin >> a[i];
     }
+
     string s;
     cin >> s;
 
