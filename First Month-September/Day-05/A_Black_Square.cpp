@@ -6,7 +6,7 @@ int main()
     ios::sync_with_stdio(false);
     cin.tie(NULL);
 
-    int a[5]; // index 1 থেকে 4 ব্যবহার করবো
+    int a[5];
     for (int i = 1; i <= 4; i++)
         cin >> a[i];
 
@@ -16,7 +16,7 @@ int main()
     long long total = 0;
     for (char c : s)
     {
-        int strip = c - '0'; // character থেকে সংখ্যা বের করা
+        int strip = c - '0';
         total += a[strip];
     }
 
