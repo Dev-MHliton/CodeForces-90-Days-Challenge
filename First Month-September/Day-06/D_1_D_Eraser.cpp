@@ -31,7 +31,6 @@ int main()
             {
                 ans++;
 
-                // পরের k টি ঘর white করে দিলাম
                 for (int j = i; j < min(i + k, n); j++)
                 {
                     s[j] = 'W';
