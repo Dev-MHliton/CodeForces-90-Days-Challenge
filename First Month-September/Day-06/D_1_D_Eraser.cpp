@@ -30,7 +30,6 @@ int main()
             if (s[i] == 'B')
             {
                 ans++;
-
                 for (int j = i; j < min(i + k, n); j++)
                 {
                     s[j] = 'W';
