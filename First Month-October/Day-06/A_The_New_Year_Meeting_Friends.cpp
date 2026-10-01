@@ -17,7 +17,7 @@ int main()
     cin >> x1 >> x2 >> x3;
 
     int maxi = max({x1, x2, x3}); // maximum
-    int mini = min({x1, x2, x3});
+    int mini = min({x1, x2, x3}); // Minimum
 
     cout << maxi - mini << endl;
 
