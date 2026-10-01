@@ -13,7 +13,7 @@ int main()
 {
     fastio();
 
-    int x1, x2, x3;
+    int x1, x2, x3; // input number
     cin >> x1 >> x2 >> x3;
 
     int maxi = max({x1, x2, x3}); // maximum
