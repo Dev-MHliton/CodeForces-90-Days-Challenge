@@ -10,6 +10,7 @@ using namespace std;
 #define all(x) x.begin(), x.end()
 #define pii pair<int, int>
 
+// Function
 bool isLucky(int x)
 {
     if (x == 0)
