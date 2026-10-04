@@ -13,14 +13,7 @@ int main()
 {
     fastio();
 
-    int t = 1;
-    // cin >> t;
-
-    while (t--)
-    {
-
-        cout << "Hello CP!" << endl;
-    }
+    // comment;
 
     return 0;
 }
