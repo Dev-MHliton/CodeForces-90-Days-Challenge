@@ -25,7 +25,6 @@ int main()
         else
             danik++;
     }
-
     if (anton > danik)
         cout << "Anton\n";
     else if (danik > anton)
