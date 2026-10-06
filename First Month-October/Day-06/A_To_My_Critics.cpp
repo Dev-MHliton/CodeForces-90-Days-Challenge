@@ -23,13 +23,9 @@ int main()
 
         // if-else condition
         if (a + b >= 10 || a + c >= 10 || b + c >= 10)
-        {
             cout << "YES\n";
-        }
         else
-        {
             cout << "NO\n";
-        }
     }
     return 0;
 }
