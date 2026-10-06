@@ -15,6 +15,7 @@ int main()
 
     int t;
     cin >> t;
+
     while (t--)
     {
         int a, b, c;
@@ -28,6 +29,5 @@ int main()
             cout << "NO\n";
         }
     }
-
     return 0;
 }
