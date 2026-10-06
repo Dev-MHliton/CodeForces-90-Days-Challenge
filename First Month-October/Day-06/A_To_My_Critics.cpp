@@ -20,6 +20,8 @@ int main()
     {
         int a, b, c;
         cin >> a >> b >> c;
+
+        // if-else condition
         if (a + b >= 10 || a + c >= 10 || b + c >= 10)
         {
             cout << "YES\n";
