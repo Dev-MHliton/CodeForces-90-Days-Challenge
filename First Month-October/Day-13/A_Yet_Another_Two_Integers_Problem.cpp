@@ -21,7 +21,7 @@ int main()
         long long a, b;
         cin >> a >> b;
 
-        long long diff = abs(a - b);
+        long long diff = abs(a - b); // value of absolute
         cout << (diff + 9) / 10 << '\n';
     }
 
