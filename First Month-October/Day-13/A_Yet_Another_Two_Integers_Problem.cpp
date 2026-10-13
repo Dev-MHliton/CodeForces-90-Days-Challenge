@@ -18,8 +18,8 @@ int main()
 
     while (t--)
     {
-        long long a, b;
-        cin >> a >> b;
+        long long a, b; // input
+        cin >> a >> b;  // input check
 
         long long diff = abs(a - b); // value of absolute
         cout << (diff + 9) / 10 << '\n';
