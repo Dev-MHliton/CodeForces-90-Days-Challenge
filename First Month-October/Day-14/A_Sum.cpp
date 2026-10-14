@@ -21,7 +21,7 @@ int main()
         int a, b, c;
         cin >> a >> b >> c;
 
-        if (a + b == c || a + c == b || b + c == a)
+        if (a + b == c || a + c == b || b + c == a) // if-else condition
             cout << "YES\n";
         else
             cout << "NO\n";
