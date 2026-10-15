@@ -13,14 +13,18 @@ int main()
 {
     fastio();
 
-    int t = 1;
-    // cin >> t;
+    long long n;
+    cin >> n;
 
-    while (t--)
+    int bills[] = {100, 20, 10, 5, 1};
+    long long ans = 0;
+
+    for (int i = 0; i < 5; i++)
     {
-
-        cout << "Hello CP!" << endl;
+        ans += n / bills[i];
+        n %= bills[i];
     }
+    cout << ans << endl;
 
     return 0;
 }
