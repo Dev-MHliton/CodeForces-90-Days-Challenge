@@ -13,7 +13,20 @@ int main()
 {
     fastio();
 
-    Hojrge
+    long long x[4];
 
-        return 0;
+    for (int i = 0; i < 4; i++)
+    {
+        cin >> x[i];
+    }
+
+    sort(x, x + 4);
+
+    long long S = x[3];
+
+    cout << S - x[0] << " "
+         << S - x[1] << " "
+         << S - x[2] << endl;
+
+    return 0;
 }
