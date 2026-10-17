@@ -13,13 +13,20 @@ int main()
 {
     fastio();
 
-    int t = 1;
-    // cin >> t;
+    int t;
+    cin >> t;
 
     while (t--)
     {
+        int a, b, c;
+        cin >> a >> b >> c;
 
-        cout << "Hello CP!" << endl;
+        if (a == b)
+            cout << c << "\n";
+        else if (a == c)
+            cout << b << "\n";
+        else
+            cout << a << "\n";
     }
 
     return 0;
